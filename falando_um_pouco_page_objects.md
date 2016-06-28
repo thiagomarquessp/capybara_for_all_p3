@@ -1,0 +1,7 @@
+# Falando um pouco de Page Objects.
+
+O conceito de Page Objects no nosso contexto vai ser de criar um mapa de objetos por página ou por necessidade dentro de classes e chamar esses objetos do nosso arquivo de steps. O bom de se trabalhar com esse conceito de Page Objects é puramente a manutenção do código, pois você não vai precisar se preocupar em alterar em vários lugares quando esse elemento sofrer algum ajuste ou mudar a classe, ou sofrer um refactory na página, por exemplo, se temos um campo com ID = Name vc passa a usá-lo em vários steps e depois de alguns meses sofre uma alteração para ter o ID = FirstName. Nesse caso você vai ter que ir em cada arquivo de steps que você precisou desse elemento e alterar para FirstName, MAS com esse elemento dentro de um mapa de elementos, você só vai precisar dar manutenção no mapa =). Simples, rápido e fatalmente funciona.
+
+A descrição que está no github do Site Prism fala: "If a class represents a page then each element of the page is represented by a method that, when called, returns a reference to that element that can then be acted upon (clicked, set text value), or queried (is it enabled? visible?)."
+
+Conversando com alguns amigos, pude ver que para desenvolvimento em Java e C# o conceito de Page Objects está atrelado a ações também, o que pro contexto desses testes, é OK, porém, no nosso contexto, vai servir como apenas um mapa de objetos.

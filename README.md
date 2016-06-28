@@ -27,3 +27,7 @@ c. Gemfile da seguinte maneira:
 d. Rodar o comando bundle install par apoder instalar todas as gems que estão associadas no Gemfile.
 ```
 Reparam na nova gem site_prism, que será a nossa gem para trabalhamos com Page Objects. Vai ser super divertido \o/
+
+A gem do Site Prism se encontra em https://github.com/natritmeyer/site_prism. Eu vou passar o conceito e o uso básico da gem para que não fique algo muito moroso. Dado que você tem o conceito fica fácil de assimilar o uso diário da gem. =)
+
+Vamos pro arquivo Falando um pouco de Page Objects: 
