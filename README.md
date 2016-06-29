@@ -8,24 +8,16 @@ find(:id, "id_do_elemento").set(Faker::Name.name)
 ```
 Certo??
 
-Isso funciona, mas para darmos um algo a mais, custa nada dar aquela tentadinha.
+Isso funciona, mas para darmos um algo a mais, aquele plus, que tal melhorar? Custa nada dar aquela tentadinha.
 
-Vamos fazer como uma espécie de receita de bolo, vou falar os ingredientes e vamos colocando na panela.
+Vamos fazer como uma espécie de receita de bolo, vou falar os ingredientes e vamos colocando na panela:
 
-```ruby
-a. Ruby instalado;
-b. gem bunler instalada;
-c. Gemfile da seguinte maneira:
-   source "https://rubygems.org"
+[Falando um pouco sobre Page Objects] (https://github.com/thiagomarquessp/capybara_for_all_p3/blob/master/falando_um_pouco_page_objects.md)
 
-   gem "cucumber"
-   gem "capybara"
-   gem "selenium-webdriver"
-   gem "faker"
-   gem "cpf_faker"
-   gem "site_prism"
-d. Rodar o comando bundle install par apoder instalar todas as gems que estão associadas no Gemfile.
-```
+[Conhecendo o Site Prism] (https://github.com/thiagomarquessp/capybara_for_all_p3/blob/master/conhecendo_site_prism.md)
+
+[Preparaaaa ... o ambiente] (https://github.com/thiagomarquessp/capybara_for_all_p3/blob/master/preparando_ambiente.md)
+
 Reparam na nova gem site_prism, que será a nossa gem para trabalhamos com Page Objects. Vai ser super divertido \o/
 
 A gem do Site Prism se encontra em https://github.com/natritmeyer/site_prism. Eu vou passar o conceito e o uso básico da gem para que não fique algo muito moroso. Dado que você tem o conceito fica fácil de assimilar o uso diário da gem. =)
