@@ -62,3 +62,21 @@ Cenario: Cadastrar usuário
 ```
 
 Nem preciso dizer que eu preciso rodar o comando cucumber para executar as RegEx e bla bla bla certo. Então vamo direto ao ponto e criar o arquivo cadastro_groupon.rb na pasta step_definitions da seguinte forma:
+
+```ruby
+encoding: utf-8
+
+Dado(/^que eu estou na página de cadatro do Groupon$/) do
+ pending # Write code here that turns the phrase above into concrete actions
+end
+
+Quando(/^eu preencher os campos obrigatórios$/) do
+ pending # Write code here that turns the phrase above into concrete actions
+end
+
+Então(/^o cadastro deverá ser realizado com sucess$/) do
+ pending # Write code here that turns the phrase above into concrete actions
+end
+```
+
+Bora agora pro [Conhecendo o Site Prism] (https://github.com/thiagomarquessp/capybara_for_all_p3/blob/master/conhecendo_site_prism.md) e de lá vamos dar continuidade. 
