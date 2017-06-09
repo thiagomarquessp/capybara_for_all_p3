@@ -40,7 +40,7 @@ O que eu fiz foi criar uma variável com o nome cadastro (que poderia ser qualqu
 
 Agora, caso o elemento nome_cliente passe a ter o id =  xpto, eu só preciso alterar o arquivo de page objects, porque o elemento :nome_cliente é único em qualquer lugar =).
 
-Eu não gosto de fazer jaba das coisas, mas segue um [livro legal sobre orientação a objetos:] (https://www.casadocodigo.com.br/products/livro-oo-solid).
+Eu não gosto de fazer jaba das coisas, mas segue um [livro legal sobre orientação a objetos:](https://www.casadocodigo.com.br/products/livro-oo-solid).
 
 Bom, indo direto a prática, teremos algo mais ou menos assim:
 
