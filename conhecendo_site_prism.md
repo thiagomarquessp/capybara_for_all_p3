@@ -1,4 +1,4 @@
-# Conhecendo o [Site Prism] (https://github.com/natritmeyer/site_prism)
+# Conhecendo o [Site Prism](https://github.com/natritmeyer/site_prism)
 
 Bem, retomando algumas coisas antes de iniciar:
 
